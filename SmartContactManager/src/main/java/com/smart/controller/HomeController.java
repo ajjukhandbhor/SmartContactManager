@@ -39,6 +39,7 @@ public class HomeController {
 	
 	@GetMapping("/")
 	public String startHome() {
+       System.out.println("Hiii");
 		return "home";
 	}
 	
